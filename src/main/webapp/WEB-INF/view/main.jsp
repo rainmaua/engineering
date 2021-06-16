@@ -12,5 +12,7 @@
 <!-- 관리자로 로그인 -->
 <a href="emp/empList">직원정보 리스트</a><br />
 <a href="member/memList">회원정보 리스트</a><br />
+<!--  일반직원 로그인 -->
+<a href="emp/empMyPage">직원 마이페이지</a>
 </body>
 </html>

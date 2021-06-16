@@ -11,6 +11,10 @@
 		#{membEmail},#{membBirth},#{membGender},sysdate,#{membConfirm},
 		#{postNumber},#{detailAddr})
 </insert>
+<update id="pwChange" parameterType = "model.MemberDTO">
+	update member
+	set memb_pw = #{mem)
+</update>
 <select id="memberList" resultType="model.MemberDTO">
 	select MEMB_ID membId, MEMB_NAME membName, MEMB_PW membPw,
 			MEMB_ADDR membAddr, MEMB_PHONE_NUMBER membPhoneNumber,
